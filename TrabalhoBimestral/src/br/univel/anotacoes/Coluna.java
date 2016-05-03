@@ -13,4 +13,8 @@ public @interface Coluna {
 
 	boolean pk() default false;
 
+	int tamanho();
+
+	boolean pkey();
+
 }
